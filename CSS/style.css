@@ -346,6 +346,20 @@ section {
 .review .content {
   flex: 1 1 42rem;
 }
+.review .content span {
+  font-size: 2rem;
+  color: #29d9d5;
+}
+.review .content h3 {
+  font-size: 3rem;
+  color: white;
+}
+.review .content p {
+  font-size: 1.4rem;
+  color: #aaa;
+  padding: 1rem 0;
+  line-height: 2;
+}
 .review .box-container {
   flex: 1 1 42rem;
   display: flex;
@@ -357,12 +371,34 @@ section {
   border-radius: 1rem;
   padding: 2rem;
   background: #222;
+  border: 0.2rem solid #111;
+}
+.review .box-container .box:hover {
+  border: 0.2rem solid #29d9d5;
 }
 .review .box-container .box p {
   font-size: 1.4rem;
   padding-bottom: 1rem;
   line-height: 2;
   color: #aaa;
+}
+.review .box-container .box .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.review .box-container .box .user img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.review .box-container .box .user h3 {
+  font-size: 1.7rem;
+  color: white;
+}
+.review .box-container .box .user span {
+  color: #aaa;
+  font-size: 1.5rem;
 }
 
 .blogs .box-container {
